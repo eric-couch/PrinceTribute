@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.parallax {
+  background-image: url("../images/purplerain.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.paragraph {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 10em;
+}
+.content {
+  text-align: center;
+  float: left;
+  background-color: lightblue;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  font-family: "Dosis", sans-serif;
+  font-size: 20pt;
+}
+#outer {
+  width: 100%;
+}
